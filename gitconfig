@@ -1,0 +1,37 @@
+[include]
+  path = ~/.gitconfig.local
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	ui = true
+[diff]
+	tool = vimdiff
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[credential]
+	helper = osxkeychain
+[core]
+	quotepath = false
+	editor = /usr/bin/vim
+	excludesfile = /Users/Developer/.gitignore_global
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[merge]
+	tool = vimdiff
+[push]
+	default = simple
+[user]
+	name = Danny Anderson
+	email = danny@danny-anderson.com
