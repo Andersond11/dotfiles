@@ -58,8 +58,6 @@ nnoremap <c-k> ddkP
 " leader-r refreshes current document
 noremap <leader>r :e!<cr>
 
-" Command-T
-let g:CommandTMaxFiles=50000
 " ctrlp
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 let g:ctrlp_map = '<leader>t'
