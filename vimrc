@@ -8,7 +8,7 @@ set dir=~/.vim/tmp//
 
 syntax on
 set nowrap
-set nonu
+set nu
 autocmd FileType * set tabstop=2 softtabstop=2 shiftwidth=2 
 set expandtab
 set winwidth=110 " set the width and height of windows
