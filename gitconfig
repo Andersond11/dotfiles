@@ -24,7 +24,8 @@
 [core]
 	quotepath = false
 	editor = /usr/bin/vim
-	excludesfile = /Users/Developer/.gitignore_global
+	excludesfile = ~/.gitignore_global
+	autocrlf = input
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
