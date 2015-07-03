@@ -55,6 +55,9 @@ nnoremap <c-l> >>
 nnoremap <c-j> ddp
 nnoremap <c-k> ddkP
 
+" map leader-s to run rspec spec
+noremap <leader>s :!clear;bundle exec rspec spec<cr>
+
 " leader-r refreshes current document
 noremap <leader>r :e!<cr>
 
