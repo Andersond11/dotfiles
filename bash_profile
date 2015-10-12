@@ -11,3 +11,6 @@
 . ~/.bash/git.sh
 . ~/.bash/rails.sh
 . ~/.local_bashrc
+
+# Start with a clean page
+clear;
