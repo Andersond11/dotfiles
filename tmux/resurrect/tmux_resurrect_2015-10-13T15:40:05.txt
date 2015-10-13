@@ -1,0 +1,8 @@
+pane	ship-it	0	:editor	1	:*	0	:/Users/dannyanderson/Documents/development/clients/shippingeasy/ship-it	1	Vim	:/usr/local/Cellar/macvim/7.4-73/MacVim.app/Contents/MacOS/Vim
+pane	ship-it	0	:editor	1	:*	1	:/Users/dannyanderson/Documents/development/clients/shippingeasy/ship-it	0	ruby	:ruby /Users/dannyanderson/.rvm/gems/ruby-2.1.2@ship-it/bin/guard  
+pane	ship-it	1	:foreman	0	: 	0	:/Users/dannyanderson/Documents/development/clients/shippingeasy/ship-it	1	ruby	:foreman: master     
+pane	ship-it	2	:logs	0	:-	0	:/Users/dannyanderson/Documents/development/clients/shippingeasy/ship-it	1	tail	:tail -f log/development.log
+window	ship-it	0	1	:*	0a2a,272x69,0,0{135x69,0,0,0,136x69,136,0,3}
+window	ship-it	1	0	: 	d55e,272x69,0,0,1
+window	ship-it	2	0	:-	d55f,272x69,0,0,2
+state	ship-it	
