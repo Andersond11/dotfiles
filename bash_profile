@@ -10,6 +10,7 @@
 . ~/.bash/docker.sh
 . ~/.bash/git.sh
 . ~/.bash/rails.sh
+. ~/.bash/nvm.sh
 . ~/.local_bashrc
 
 # Start with a clean page
