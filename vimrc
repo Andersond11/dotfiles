@@ -1,5 +1,5 @@
 set nocompatible
-let mapleader = ","
+let mapleader = " "
 set t_Co=256
 colorscheme xoria256
 set hidden		" allows you to leave a buffer with changes unsaved
@@ -29,6 +29,7 @@ let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 " Color coded man pages
 " source /usr/share/vim/vim72/ftplugin/man.vim
 
+
 " Audio
 set noeb vb t_vb=
 
@@ -48,6 +49,14 @@ autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 cnoreabbrev W w
 nnoremap <F5> <C-W>c
 nnoremap <leader>ev :vsp<cr>:e ~/.vimrc<cr><C-W>l
+nnoremap <leader>t :A<cr>
+nnoremap <leader>s :!rspec %<cr>
+nnoremap <leader>w :w<cr>
+nnoremap <leader>q :q<cr>
+" leader-r refreshes current document
+noremap <leader>r :e!<cr>
+" format json
+noremap <leader>fj :!python -m json.tool<cr>
 
 " ctrl + directional keys indent/unindent and move lines up or down
 nnoremap <c-h> <<
@@ -55,18 +64,14 @@ nnoremap <c-l> >>
 nnoremap <c-j> ddp
 nnoremap <c-k> ddkP
 
-" map leader-s to run rspec spec
-noremap <leader>s :!clear;bundle exec rspec spec<cr>
 
-" leader-r refreshes current document
-noremap <leader>r :e!<cr>
 
 " ctrlp
 let g:ctrlp_max_files=0
 let g:ctrlp_max_depth=40
 let g:ctrlp_match_window = 'max:20,results:20'
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
-let g:ctrlp_map = '<leader>t'
+let g:ctrlp_map = '<leader>o'
 
 " pathogen includes any plugins in ~/.vim/bundle
 execute pathogen#infect()
