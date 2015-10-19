@@ -1,3 +1,4 @@
 .DS_Store
+tmuxinator
 vim/tmp/*
 vim/.netrwhist
