@@ -1,4 +1,4 @@
 # Use vim as the default editor
 export EDITOR='vim'
 
-alias update_ctags="ctags -R --languages=ruby --exclude=.git --exclude=log . \$(bundle list --paths)"
+alias gentags="ctags -R --languages=ruby --exclude=.git --exclude=log --exclude=_!not-app-related . \$(for gemfile in `ls */Gemfile`; do BUNDLE_GEMFILE=$gemfile bundle list --paths; done)"
