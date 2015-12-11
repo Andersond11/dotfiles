@@ -1,5 +1,5 @@
 .DS_Store
 tmuxinator
-tmux/resurrect
+tmux/resurrect/*
 vim/tmp/*
 vim/.netrwhist
