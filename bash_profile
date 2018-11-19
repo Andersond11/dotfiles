@@ -8,7 +8,6 @@
 . ~/.bash/iterm_helpers.sh
 . ~/.bash/shell.sh
 . ~/.bash/git.sh
-. ~/.bash/rails.sh
 . ~/.bash/nvm.sh
 . ~/.local_bashrc
 
