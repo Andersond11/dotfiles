@@ -1,1 +1,1 @@
-SYMLINK_DIRS="vim tmux"
+SYMLINK_DIRS="bash vim tmux"
