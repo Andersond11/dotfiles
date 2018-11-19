@@ -7,7 +7,6 @@
 . ~/.bash/path.sh
 . ~/.bash/iterm_helpers.sh
 . ~/.bash/shell.sh
-. ~/.bash/docker.sh
 . ~/.bash/git.sh
 . ~/.bash/rails.sh
 . ~/.bash/nvm.sh
